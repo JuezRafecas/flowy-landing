@@ -1,0 +1,178 @@
+//Seccion 1
+section.promo1
+    +promociones($bg-white)
+    div.seccion-izquierda
+        +seccion-side($color-light-blue, $color-black)
+    article
+        +seccion-side($color-light-blue, $color-black)
+//Seccion 2
+section.promo2
+    +promociones($bg-light-blue)
+    div.seccion-izquierda
+        +seccion-side($color-white, $color-white)
+    article
+        +seccion-side($color-white, $color-white)
+//Seccion de motivos
+section.motivos
+    display: flex
+    flex-direction: column
+    gap: 5vh
+    text-align: center
+    padding: 5vh 25vw
+    h2
+        color: $color-blue
+        font-size: $font-big
+        font-weight: 600
+    p
+        color: $color-black
+        font-size: $font-normal + 0.1em
+        font-weight: 400
+        padding-bottom: 5vh
+        line-height: $font-semi-big
+//Seccion 3
+section.promo3
+    +promociones($bg-gray)
+    div.seccion-izquierda
+        +seccion-side($color-light-blue, $color-black)
+    article
+        +seccion-side($color-light-blue, $color-black)
+//Seccion 4
+section.promo4
+    +promociones($bg-white)
+    div.seccion-izquierda
+        +seccion-side($color-light-blue, $color-black)
+    article
+        +seccion-side($color-light-blue, $color-black)
+//Seccion 5
+section.promo5
+    +promociones($bg-gray)
+    div.seccion-izquierda
+        +seccion-side($color-light-blue, $color-black)
+    article
+        +seccion-side($color-light-blue, $color-black)
+
+//Testimonios
+section.testimonios
+    display: flex
+    justify-content: center
+    padding: 10vh 11vw
+    background: $bg-light-blue
+    align-items: center
+    gap: 5vw
+    div
+        width: 35vw
+        &.testimonios-text
+            display: flex
+            flex-direction: column
+            gap: 7vh
+            h2
+                font-size: $font-bigger
+                color: $color-white
+                font-weight: 500
+                strong
+                    font-weight: 700
+            img
+                width: 8vw
+                &.second-comilla
+                    align-self: flex-end
+        &.testimonios-casos
+            display: flex
+            flex-direction: column
+            gap: 3vh
+            p
+                font-size: $font-normal + 0.1em
+                font-style: italic
+                color: $color-white
+                line-height: $font-big
+            div
+                display: flex
+                justify-content: center
+                align-items: center
+                img
+                    width: 16vw
+                    border-radius: 50%
+                    border: 8px solid #fff
+                div
+                    display: flex
+                    flex-direction: column
+                    gap: 1vh
+                    color: $color-white
+                    h3
+                        font-size: $font-big
+                        font-weight: 500
+                    h4
+                        font-size: $font-semi-big + 0.1em
+                        font-weight: 500
+                
+
+//+SOLUCIONES
+section#SOLUCIONES
+    text-align: center
+    padding: 10vh 0vw 20vh 0vw
+    background-image: url(../img/fondo.jpg)
+    background-size: cover
+    h2
+        font-size: $font-bigger + 0.3em
+        font-weight: 600
+        padding-bottom: 12vh
+    div.soluciones
+        display: flex
+        flex-wrap: wrap
+        justify-content: center
+        gap: 2vw
+        article
+            padding: 5vh
+            width: 250px
+            max-width: 20vw
+            box-shadow: 2px -2px 27px 2px rgba(0,0,0, 0.19)
+            border-radius: 25px
+            height: 53vh
+            display: flex
+            flex-direction: column
+            gap: 3vh
+            align-items: center
+            background: #ffffff9f
+            div
+                height: 16vh
+                img
+                    width: 70px
+                    max-width: 7vw
+                    height: 70px
+                h5
+                    padding-top: 3vh
+                    font-size: $font-semi-big
+                    color: $color-light-blue
+                    font-weight: 500
+            p
+                padding-top: 5vh
+                font-size: $font-normal + 0.1em
+                font-weight: 400
+//Seccion crear primera oferta
+section.crear-primera-oferta
+    background: $bg-light-blue
+    display: flex
+    flex-direction: column
+    gap: 5vh
+    justify-content: space-around
+    text-align: center
+    align-items: center
+    padding: 8vh
+    color: $color-white
+    img
+        width: 5vw
+    h2
+        font-size: $font-bigger
+        font-weight: 500
+    h5
+        font-size: $font-normal + 0.1em
+        font-weight: 400
+    a
+        color: $color-light-blue
+        font-size: $font-semi-big - 0.2em
+        font-weight: 500
+        background: $bg-white
+        border-radius: 50px
+        padding: 1.5vh 3vw
+        &:hover
+            color: $color-white
+            background: $bg-blue

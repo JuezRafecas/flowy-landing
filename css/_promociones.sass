@@ -1,0 +1,23 @@
+@mixin promociones($bg-color)
+    display: flex
+    justify-content: space-around
+    padding: 4vh 12vw
+    background: $bg-color
+@mixin seccion-side($title-color, $text-color)
+    display: flex
+    flex-direction: column
+    justify-content: center
+    gap: 5vh
+    img
+        width: 40vw
+        height: auto
+    h2
+        color: $title-color
+        font-size: $font-big
+        font-weight: 500
+    p
+        color: $text-color
+        font-size: $font-normal + 0.1em
+        line-height: $font-semi-big
+        width: 28vw
+

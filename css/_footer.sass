@@ -1,0 +1,38 @@
+footer
+    background: $bg-black
+    display: flex
+    justify-content: space-around
+    padding: 5em 0
+    font-size: 1.1em
+    div
+        ul
+            list-style: none
+            color: $color-white
+            display: flex
+            flex-direction: column
+            gap: 1em
+            li
+                a
+                    color: $color-white
+                    text-decoration: none
+                    &:hover
+                        color: $color-light-blue
+                        text-decoration: none
+                        transition: color .3s
+                    &:visited
+                        text-decoration: none
+                    &:focus
+                        text-decoration: none
+                    &:active
+                        text-decoration: none
+                    img
+                        +logoFlowy()
+            &.soporte
+                li
+                    display: flex
+                    gap: 1em
+                    a
+                        font-weight: 500
+                i
+                    color: $color-light-blue
+                    font-size: 1.3em

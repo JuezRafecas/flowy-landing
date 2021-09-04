@@ -1,0 +1,50 @@
+section.hero
+    display: flex
+    justify-content: space-around
+    align-items: center
+    background-image: url(../img/cielo.jpg)
+    padding: 7vh 0em 10vh 5vw
+    img.img-hero
+        width: 40vw
+        height: auto
+    div.div-hero
+        display: flex
+        flex-direction: column
+        gap: 3vw
+        h3
+            font-size: $font-semi-big
+            color: $color-white
+            font-weight: 600
+        h1
+            font-size: $font-extra-big
+            font-weight: 300
+            color: $color-blue
+            strong
+                color: $color-white
+                font-weight: 500
+        div.comenzar
+            display: flex
+            gap: 1vw
+            align-items: center
+            a
+                color: $color-white
+                padding: 0.6vw 1.3vw
+                border-radius: 50px
+                text-decoration: none
+                background: linear-gradient(90deg, rgba(43,119,165,1) 0%, rgba(0,46,93,1) 31%, rgba(0,46,93,1) 67%, rgba(43,119,165,1) 100%)
+                h2
+                    font-size: $font-normal
+                    font-weight: 500
+                &:visited
+                    text-decoration: none
+                &:focus
+                    text-decoration: none
+                &:active
+                    text-decoration: none
+                &:hover
+                    text-decoration: none
+                    background: $color-blue
+                    color: $color-white
+            p
+                color: $color-white
+                font-weight: 500

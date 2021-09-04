@@ -1,0 +1,13 @@
+@media screen and (max-width: 1000px) {
+    header nav ul{
+        display: none;
+    }
+}
+@media screen and (max-width: 800px) {
+    section.hero{
+        flex-wrap: wrap;
+    }
+    section.hero img.img-hero{
+        width: 80%;
+    }
+}
