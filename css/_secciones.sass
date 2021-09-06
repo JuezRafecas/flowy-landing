@@ -8,9 +8,9 @@ section.promo1
 //Seccion 2
 section.promo2
     +promociones($bg-light-blue)
-    div.seccion-izquierda
+    div.seccion-derecha
         +seccion-side($color-white, $color-white)
-    article
+    article.seccion-izquierda
         +seccion-side($color-white, $color-white)
 //Seccion de motivos
 section.motivos
@@ -34,21 +34,23 @@ section.promo3
     +promociones($bg-gray)
     div.seccion-izquierda
         +seccion-side($color-light-blue, $color-black)
-    article
+    article.seccion-derecha
         +seccion-side($color-light-blue, $color-black)
 //Seccion 4
 section.promo4
     +promociones($bg-white)
-    div.seccion-izquierda
+    div.seccion-derecha
         +seccion-side($color-light-blue, $color-black)
-    article
+        img
+            width: 35vw
+    article.seccion-izquierda
         +seccion-side($color-light-blue, $color-black)
 //Seccion 5
 section.promo5
     +promociones($bg-gray)
     div.seccion-izquierda
         +seccion-side($color-light-blue, $color-black)
-    article
+    article.seccion-derecha
         +seccion-side($color-light-blue, $color-black)
 
 //Testimonios
@@ -88,6 +90,7 @@ section.testimonios
                 display: flex
                 justify-content: center
                 align-items: center
+                gap: 2vw
                 img
                     width: 16vw
                     border-radius: 50%

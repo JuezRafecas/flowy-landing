@@ -1,6 +1,49 @@
+@media screen and (max-width: 1470px) {
+    section.testimonios{
+        justify-content: space-between;
+    }
+    section.testimonios div {
+        width: 40vw;
+    }
+}
+@media screen and (max-width: 1200px) {
+    section.hero{
+        font-size: 12px;
+    }
+    section.motivos{
+        padding: 5vh 10vw;
+    }
+    section.promo1, section.promo2, section.promo3, section.promo4, section.promo5 {
+        padding: 4vh 5vw;
+    }
+    section.promo1 article.seccion-derecha p, section.promo3 article.seccion-derecha p, section.promo5 article.seccion-derecha p {
+        width: 40vw;
+    }
+    section.promo2 article.seccion-izquierda p, section.promo4 article.seccion-izquierda p{
+        width: 40vw;
+    }
+    section.testimonios{
+        padding: 10vh 5vw;
+    }
+}
 @media screen and (max-width: 1000px) {
     header nav ul{
         display: none;
+    }
+    section.promo4{
+        padding: 4vh 0vw 4vh 5vw;
+    }
+    section.promo4 div.seccion-derecha img {
+        width: 45vw;
+    }
+    section.testimonios div.testimonios-text h2 {
+        font-size: 2em;
+    }
+    section.testimonios div.testimonios-casos div div h3 {
+        font-size: 1.7em;
+    }
+    section.testimonios div.testimonios-casos div div h4 {
+        font-size: 1.4em;
     }
 }
 @media screen and (max-width: 800px) {

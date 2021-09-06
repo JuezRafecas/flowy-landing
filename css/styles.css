@@ -199,6 +199,9 @@ header nav ul li.ingresar a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   gap: 0.2vw;
   background: #489AC5;
   padding: 0.4vh 1.3vw;
@@ -210,6 +213,10 @@ header nav ul li.ingresar a:hover {
   color: #fff;
   -webkit-transition: background .3s;
   transition: background .3s;
+}
+
+header nav ul li.ingresar a i {
+  font-size: 0.8em;
 }
 
 section.hero {
@@ -389,7 +396,7 @@ section.promo2 {
   background: #489AC5;
 }
 
-section.promo2 div.seccion-izquierda {
+section.promo2 div.seccion-derecha {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -403,25 +410,25 @@ section.promo2 div.seccion-izquierda {
   gap: 5vh;
 }
 
-section.promo2 div.seccion-izquierda img {
+section.promo2 div.seccion-derecha img {
   width: 40vw;
   height: auto;
 }
 
-section.promo2 div.seccion-izquierda h2 {
+section.promo2 div.seccion-derecha h2 {
   color: #fff;
   font-size: 2em;
   font-weight: 500;
 }
 
-section.promo2 div.seccion-izquierda p {
+section.promo2 div.seccion-derecha p {
   color: #fff;
   font-size: 1.1em;
   line-height: 1.5em;
   width: 28vw;
 }
 
-section.promo2 article {
+section.promo2 article.seccion-izquierda {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -435,18 +442,18 @@ section.promo2 article {
   gap: 5vh;
 }
 
-section.promo2 article img {
+section.promo2 article.seccion-izquierda img {
   width: 40vw;
   height: auto;
 }
 
-section.promo2 article h2 {
+section.promo2 article.seccion-izquierda h2 {
   color: #fff;
   font-size: 2em;
   font-weight: 500;
 }
 
-section.promo2 article p {
+section.promo2 article.seccion-izquierda p {
   color: #fff;
   font-size: 1.1em;
   line-height: 1.5em;
@@ -522,7 +529,7 @@ section.promo3 div.seccion-izquierda p {
   width: 28vw;
 }
 
-section.promo3 article {
+section.promo3 article.seccion-derecha {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -536,18 +543,18 @@ section.promo3 article {
   gap: 5vh;
 }
 
-section.promo3 article img {
+section.promo3 article.seccion-derecha img {
   width: 40vw;
   height: auto;
 }
 
-section.promo3 article h2 {
+section.promo3 article.seccion-derecha h2 {
   color: #489AC5;
   font-size: 2em;
   font-weight: 500;
 }
 
-section.promo3 article p {
+section.promo3 article.seccion-derecha p {
   color: #363636;
   font-size: 1.1em;
   line-height: 1.5em;
@@ -564,7 +571,7 @@ section.promo4 {
   background: #fff;
 }
 
-section.promo4 div.seccion-izquierda {
+section.promo4 div.seccion-derecha {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -578,25 +585,29 @@ section.promo4 div.seccion-izquierda {
   gap: 5vh;
 }
 
-section.promo4 div.seccion-izquierda img {
+section.promo4 div.seccion-derecha img {
   width: 40vw;
   height: auto;
 }
 
-section.promo4 div.seccion-izquierda h2 {
+section.promo4 div.seccion-derecha h2 {
   color: #489AC5;
   font-size: 2em;
   font-weight: 500;
 }
 
-section.promo4 div.seccion-izquierda p {
+section.promo4 div.seccion-derecha p {
   color: #363636;
   font-size: 1.1em;
   line-height: 1.5em;
   width: 28vw;
 }
 
-section.promo4 article {
+section.promo4 div.seccion-derecha img {
+  width: 35vw;
+}
+
+section.promo4 article.seccion-izquierda {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -610,18 +621,18 @@ section.promo4 article {
   gap: 5vh;
 }
 
-section.promo4 article img {
+section.promo4 article.seccion-izquierda img {
   width: 40vw;
   height: auto;
 }
 
-section.promo4 article h2 {
+section.promo4 article.seccion-izquierda h2 {
   color: #489AC5;
   font-size: 2em;
   font-weight: 500;
 }
 
-section.promo4 article p {
+section.promo4 article.seccion-izquierda p {
   color: #363636;
   font-size: 1.1em;
   line-height: 1.5em;
@@ -670,7 +681,7 @@ section.promo5 div.seccion-izquierda p {
   width: 28vw;
 }
 
-section.promo5 article {
+section.promo5 article.seccion-derecha {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -684,18 +695,18 @@ section.promo5 article {
   gap: 5vh;
 }
 
-section.promo5 article img {
+section.promo5 article.seccion-derecha img {
   width: 40vw;
   height: auto;
 }
 
-section.promo5 article h2 {
+section.promo5 article.seccion-derecha h2 {
   color: #489AC5;
   font-size: 2em;
   font-weight: 500;
 }
 
-section.promo5 article p {
+section.promo5 article.seccion-derecha p {
   color: #363636;
   font-size: 1.1em;
   line-height: 1.5em;
@@ -779,6 +790,7 @@ section.testimonios div.testimonios-casos div {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  gap: 2vw;
 }
 
 section.testimonios div.testimonios-casos div img {
